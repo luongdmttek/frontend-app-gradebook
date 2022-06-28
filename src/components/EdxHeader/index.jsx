@@ -1,6 +1,6 @@
 import React from 'react';
 import { Hyperlink } from '@edx/paragon';
-import { getConfig } from '@edx/frontend-platform';
+import { getConfig } from 'frontend-platform-vi';
 
 /**
  * <EdxHeader />

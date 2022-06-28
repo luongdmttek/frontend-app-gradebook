@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import { Button } from '@edx/paragon';
-import { FormattedMessage } from '@edx/frontend-platform/i18n';
+import { FormattedMessage } from 'frontend-platform-vi/i18n';
 
 import actions from 'data/actions';
 import selectors from 'data/selectors';
@@ -13,7 +13,7 @@ import { GradebookHeader, mapDispatchToProps, mapStateToProps } from '.';
 jest.mock('@edx/paragon', () => ({
   Button: () => 'Button',
 }));
-jest.mock('@edx/frontend-platform/i18n', () => ({
+jest.mock('frontend-platform-vi/i18n', () => ({
   defineMessages: m => m,
   FormattedMessage: () => 'FormattedMessage',
 }));

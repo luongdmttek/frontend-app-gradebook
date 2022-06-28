@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import { getConfig } from '@edx/frontend-platform';
+import { getConfig } from 'frontend-platform-vi';
 
 import Header from '.';
 
 jest.mock('@edx/paragon', () => ({
   Hyperlink: () => 'Hyperlink',
 }));
-jest.mock('@edx/frontend-platform', () => ({
+jest.mock('frontend-platform-vi', () => ({
   getConfig: jest.fn(),
 }));
 

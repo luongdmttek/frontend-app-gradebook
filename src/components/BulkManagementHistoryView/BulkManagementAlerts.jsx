@@ -1,7 +1,7 @@
 /* eslint-disable react/sort-comp, react/button-has-type */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FormattedMessage } from '@edx/frontend-platform/i18n';
+import { FormattedMessage } from 'frontend-platform-vi/i18n';
 import { connect } from 'react-redux';
 
 import { Alert } from '@edx/paragon';

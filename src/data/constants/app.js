@@ -1,5 +1,5 @@
 import { StrictDict } from 'utils';
-import { getConfig } from '@edx/frontend-platform';
+import { getConfig } from 'frontend-platform-vi';
 
 export const routePath = `${getConfig().PUBLIC_PATH}:courseId`;
 

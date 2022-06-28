@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import { FormControl, FormGroup, FormLabel } from '@edx/paragon';
-import { FormattedMessage, injectIntl, intlShape } from '@edx/frontend-platform/i18n';
+import { FormattedMessage, injectIntl, intlShape } from 'frontend-platform-vi/i18n';
 
 import actions from 'data/actions';
 import selectors from 'data/selectors';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { getLocale } from '@edx/frontend-platform/i18n';
+import { getLocale } from 'frontend-platform-vi/i18n';
 
 import { OverlayTrigger } from '@edx/paragon';
 

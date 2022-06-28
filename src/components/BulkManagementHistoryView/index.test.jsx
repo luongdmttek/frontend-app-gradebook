@@ -1,7 +1,7 @@
 /* eslint-disable import/no-named-as-default */
 import React from 'react';
 import { shallow } from 'enzyme';
-import { FormattedMessage } from '@edx/frontend-platform/i18n';
+import { FormattedMessage } from 'frontend-platform-vi/i18n';
 
 import { BulkManagementHistoryView } from '.';
 import BulkManagementAlerts from './BulkManagementAlerts';

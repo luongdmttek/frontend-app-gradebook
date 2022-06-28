@@ -48,6 +48,9 @@
     "enzyme": "^3.10.0",
     "enzyme-to-json": "^3.6.2",
     "font-awesome": "4.7.0",
+    "frontend-component-footer-vi": "^1.0.0",
+    "frontend-component-header-vi": "^1.0.2",
+    "frontend-platform-vi": "^1.0.0",
     "history": "4.10.1",
     "prop-types": "15.7.2",
     "query-string": "6.13.0",
@@ -69,20 +72,20 @@
     "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
-    "@edx/frontend-build": "9.1.1",
-    "axios": "0.21.1",
+    "@edx/frontend-build": "^11.0.2",
+    "axios": "^0.21.4",
     "axios-mock-adapter": "^1.17.0",
     "codecov": "^3.6.1",
     "enzyme-adapter-react-16": "^1.14.0",
-    "es-check": "^2.3.0",
+    "es-check": "^6.0.0",
     "fetch-mock": "^6.5.2",
     "husky": "2.7.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "24.9.0",
-    "react-dev-utils": "^5.0.3",
+    "jest": "^28.1.1",
+    "react-dev-utils": "^12.0.1",
     "react-test-renderer": "^16.10.1",
     "reactifex": "1.1.1",
     "redux-mock-store": "^1.5.3",
-    "semantic-release": "^17.2.3"
+    "semantic-release": "^19.0.3"
   }
 }

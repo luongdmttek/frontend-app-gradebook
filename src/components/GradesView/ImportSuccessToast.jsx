@@ -7,7 +7,7 @@ import { Toast } from '@edx/paragon';
 import {
   injectIntl,
   intlShape,
-} from '@edx/frontend-platform/i18n';
+} from 'frontend-platform-vi/i18n';
 
 import selectors from 'data/selectors';
 import actions from 'data/actions';

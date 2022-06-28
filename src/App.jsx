@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import { AppProvider } from '@edx/frontend-platform/react';
+import { AppProvider } from 'frontend-platform-vi/react';
 
-import Footer from '@edx/frontend-component-footer';
-import Header from '@edx/frontend-component-header';
+import Footer from 'frontend-component-footer-vi';
+import Header from 'frontend-component-header-vi';
 
 import { routePath } from 'data/constants/app';
 import store from 'data/store';

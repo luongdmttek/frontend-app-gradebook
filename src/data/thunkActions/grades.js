@@ -1,5 +1,5 @@
 /* eslint-disable import/no-self-import, import/no-named-as-default-member */
-import { getAuthenticatedHttpClient } from '@edx/frontend-platform/auth';
+import { getAuthenticatedHttpClient } from 'frontend-platform-vi/auth';
 
 import { StrictDict } from 'utils';
 

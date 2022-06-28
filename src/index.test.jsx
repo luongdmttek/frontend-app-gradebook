@@ -5,9 +5,9 @@ import {
   APP_READY,
   initialize,
   subscribe,
-} from '@edx/frontend-platform';
-import { messages as headerMessages } from '@edx/frontend-component-header';
-import { messages as footerMessages } from '@edx/frontend-component-footer';
+} from 'frontend-platform-vi';
+import { messages as headerMessages } from 'frontend-component-header-vi';
+import { messages as footerMessages } from 'frontend-component-footer-vi';
 
 import appMessages from './i18n';
 import App from './App';
@@ -16,15 +16,15 @@ import '.';
 jest.mock('react-dom', () => ({
   render: jest.fn(),
 }));
-jest.mock('@edx/frontend-platform', () => ({
+jest.mock('frontend-platform-vi', () => ({
   APP_READY: 'app-is-ready-key',
   initialize: jest.fn(),
   subscribe: jest.fn(),
 }));
-jest.mock('@edx/frontend-component-header', () => ({
+jest.mock('frontend-component-header-vi', () => ({
   messages: ['some', 'messages'],
 }));
-jest.mock('@edx/frontend-component-footer', () => ({
+jest.mock('frontend-component-footer-vi', () => ({
   messages: ['some', 'messages'],
 }));
 jest.mock('./App', () => 'App');

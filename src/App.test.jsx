@@ -2,10 +2,10 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { AppProvider } from '@edx/frontend-platform/react';
+import { AppProvider } from 'frontend-platform-vi/react';
 
-import Footer from '@edx/frontend-component-footer';
-import Header from '@edx/frontend-component-header';
+import Footer from 'frontend-component-footer-vi';
+import Header from 'frontend-component-header-vi';
 
 import { routePath } from 'data/constants/app';
 import store from 'data/store';
@@ -18,16 +18,16 @@ jest.mock('react-router-dom', () => ({
   Route: () => 'Route',
   Switch: () => 'Switch',
 }));
-jest.mock('@edx/frontend-platform/react', () => ({
+jest.mock('frontend-platform-vi/react', () => ({
   AppProvider: () => 'AppProvider',
 }));
 jest.mock('data/constants/app', () => ({
   routePath: '/:courseId',
 }));
-jest.mock('@edx/frontend-component-footer', () => 'Footer');
+jest.mock('frontend-component-footer-vi', () => 'Footer');
 jest.mock('data/store', () => 'testStore');
 jest.mock('containers/GradebookPage', () => 'GradebookPage');
-jest.mock('@edx/frontend-component-header', () => 'Header');
+jest.mock('frontend-component-header-vi', () => 'Header');
 
 const logo = 'fakeLogo.png';
 let el;

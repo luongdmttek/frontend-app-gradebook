@@ -10,7 +10,7 @@ import {
   Form,
 } from '@edx/paragon';
 import { Close } from '@edx/paragon/icons';
-import { FormattedMessage, injectIntl, intlShape } from '@edx/frontend-platform/i18n';
+import { FormattedMessage, injectIntl, intlShape } from 'frontend-platform-vi/i18n';
 
 import actions from 'data/actions';
 import selectors from 'data/selectors';

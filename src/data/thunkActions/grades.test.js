@@ -1,7 +1,7 @@
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
-import * as auth from '@edx/frontend-platform/auth';
+import * as auth from 'frontend-platform-vi/auth';
 
 import GRADE_OVERRIDE_HISTORY_ERROR_DEFAULT_MSG from 'data/constants/errors';
 import actions from 'data/actions';
@@ -84,7 +84,7 @@ jest.mock('data/services/lms', () => ({
     },
   },
 }));
-jest.mock('@edx/frontend-platform/auth', () => ({
+jest.mock('frontend-platform-vi/auth', () => ({
   getAuthenticatedHttpClient: jest.fn(),
 }));
 jest.mock('data/selectors', () => ({

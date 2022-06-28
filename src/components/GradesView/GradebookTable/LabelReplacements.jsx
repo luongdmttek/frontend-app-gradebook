@@ -7,7 +7,7 @@ import {
   OverlayTrigger,
   Tooltip,
 } from '@edx/paragon';
-import { FormattedMessage, getLocale, isRtl } from '@edx/frontend-platform/i18n';
+import { FormattedMessage, getLocale, isRtl } from 'frontend-platform-vi/i18n';
 
 import messages from './messages';
 

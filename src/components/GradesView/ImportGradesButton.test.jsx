@@ -16,7 +16,7 @@ import { ImportGradesButton, mapStateToProps, mapDispatchToProps } from './Impor
 
 import messages from './ImportGradesButton.messages';
 
-jest.mock('@edx/frontend-platform/i18n', () => ({
+jest.mock('frontend-platform-vi/i18n', () => ({
   defineMessages: m => m,
   FormattedMessage: () => 'FormattedMessage',
 }));

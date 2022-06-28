@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Alert } from '@edx/paragon';
-import { FormattedMessage } from '@edx/frontend-platform/i18n';
+import { FormattedMessage } from 'frontend-platform-vi/i18n';
 
 import selectors from 'data/selectors';
 import messages from './messages';
 
 import { BulkManagementAlerts, mapStateToProps } from './BulkManagementAlerts';
 
-jest.mock('@edx/frontend-platform/i18n', () => ({
+jest.mock('frontend-platform-vi/i18n', () => ({
   defineMessages: m => m,
   FormattedMessage: () => 'FormattedMessage',
 }));

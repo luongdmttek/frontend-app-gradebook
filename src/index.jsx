@@ -8,9 +8,9 @@ import {
   APP_READY,
   initialize,
   subscribe,
-} from '@edx/frontend-platform';
-import { messages as headerMessages } from '@edx/frontend-component-header';
-import { messages as footerMessages } from '@edx/frontend-component-footer';
+} from 'frontend-platform-vi';
+import { messages as headerMessages } from 'frontend-component-header-vi';
+import { messages as footerMessages } from 'frontend-component-footer-vi';
 
 import appMessages from './i18n';
 import App from './App';

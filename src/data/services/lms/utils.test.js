@@ -1,12 +1,12 @@
 import queryString from 'query-string';
-import { getAuthenticatedHttpClient } from '@edx/frontend-platform/auth';
+import { getAuthenticatedHttpClient } from 'frontend-platform-vi/auth';
 import { filters } from 'data/constants/filters';
 import * as utils from './utils';
 
 jest.mock('query-string', () => ({
   stringifyUrl: jest.fn((url, options) => ({ url, options })),
 }));
-jest.mock('@edx/frontend-platform/auth', () => ({
+jest.mock('frontend-platform-vi/auth', () => ({
   getAuthenticatedHttpClient: jest.fn(),
 }));
 
