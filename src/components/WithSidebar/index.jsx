@@ -5,6 +5,8 @@ import classNames from 'classnames';
 
 import selectors from 'data/selectors';
 import thunkActions from 'data/thunkActions';
+import { getAuthenticatedUser } from '@edx/frontend-platform/auth';
+import {Helmet} from "react-helmet"
 
 /**
  * WithSidebar
@@ -39,6 +41,11 @@ export class WithSidebar extends React.Component {
         <div className={this.contentClassNames}>
           { this.props.children}
         </div>
+		    <Helmet>
+          <script type="application/json" async="true">
+            {`{"user_id": ${getAuthenticatedUser().userId}}`}
+          </script>
+        </Helmet>
       </div>
     );
   }
