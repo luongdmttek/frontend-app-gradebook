@@ -122,3 +122,8 @@ select#ScoreView.form-control {
         border-right-color: $black;
     }
 }
+
+.site-header-desktop .logo {
+  height: 3.25rem;
+  padding: unset;
+}
